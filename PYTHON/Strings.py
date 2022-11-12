@@ -26,13 +26,13 @@ def Alllowecase():
     
 Alllowecase()
 
-def Concertenating():
+def Concartenating():
     print("\nConcatenating/Combining Strings")
     first_name = "cynthia"
     second_name = "jebet"
     print("How are you" + " " + first_name.title() + " " + second_name.title() + "!")
 
-Concertenating()
+Concartenating()
 
 def Addtab_newline():
     print("\nAdding a tab and a new line in a single string")

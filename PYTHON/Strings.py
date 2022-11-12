@@ -54,6 +54,8 @@ def Strippingwhitespace():
      print(favourite_colour.strip())
 
 Strippingwhitespace()
+
+
      
      
      

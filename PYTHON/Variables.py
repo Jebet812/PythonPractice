@@ -10,7 +10,7 @@ def WelcomeMessage():
     greeting = "Welcome to Python Cynthia. You'll enjoy this!"
     print(greeting)   
     
-    greeting = "It's quite fun to do!"
+    greeting = "It'squite fun to do!"
     print(greeting) 
 
 WelcomeMessage() 

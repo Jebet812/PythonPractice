@@ -40,8 +40,20 @@ def Addtab_newline():
     
 Addtab_newline()
 
- def Strippingwhitespace():
-     print("\nStripping whitespace")
+def Strippingwhitespace():
+     print("\nStripping right whitespace")
+     favourite_colour = " Sage "
+     print(favourite_colour.rstrip())
+     
+     print("\nStripping left whitespace")
+     favourite_colour = " Sage "
+     print(favourite_colour.lstrip()) 
+     
+     print("\nStripping both sides of whitespace")
+     favourite_colour = " Sage "
+     print(favourite_colour.strip())
+
+Strippingwhitespace()
      
      
      

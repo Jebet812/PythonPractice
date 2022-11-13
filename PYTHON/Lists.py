@@ -148,6 +148,18 @@ def Sortingalisttemporarily():
     
 Sortingalisttemporarily() 
 
+def Reverseorderofalist():
+    colours = ['Red', 'Purple', 'Green', 'Orange']
+    print(colours)
+    
+    colours.reverse()
+    print(colours)
 
+Reverseorderofalist()
+
+def Findingthelengthofalist():
+    print("\nFinding the length of a list")
+    colours = ['Red', 'Purple', 'Green', 'Orange', 'Yellow', 'Maroon']
+    len(colours)
     
-    
+Findingthelengthofalist()

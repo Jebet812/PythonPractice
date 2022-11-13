@@ -115,4 +115,39 @@ def Removinganitembyvalue ():
     
 Removinganitembyvalue()
 
+
+
 print("Organizing a List")
+
+def Sortingalistpermanently():
+    print("\nSorting a list permanently with sort() method in alphabetical order")
+    colours = ['Red', 'Purple', 'Green', 'Orange']
+    colours.sort()
+    print(colours)
+    
+    print("\nSorting a list permanently with sort() method in reverse alphabetical order")
+    colours = ['Red', 'Purple', 'Green', 'Orange']
+    colours.sort(reverse=True)
+    print(colours)
+    
+Sortingalistpermanently()
+    
+def Sortingalisttemporarily():
+    print("\nSorting a list temporarily with sorted() method")
+    print("Original list")
+    colours = ['Red', 'Purple', 'Green', 'Orange']
+    print(colours)
+    
+    print("\nThe sorted list in alphabetical order")
+    print(sorted(colours))
+    
+    print("\nThe sorted list in reverse alphabetical order")
+    print(sorted(colours, reverse=True))
+    print("\nThe original list again")
+    print(colours)
+    
+Sortingalisttemporarily() 
+
+
+    
+    

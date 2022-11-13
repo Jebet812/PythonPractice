@@ -72,12 +72,47 @@ def Addingelementsinalistusinginsert():
     
 Addingelementsinalistusinginsert()
 
-def Removingelementsinalist():
-    print("\nModifying Elements in a List")
+def Removingelementsinalistwithdel():
+    print("\nRemoving Item Using the del statement")
     colours = ['Red', 'Purple', 'Green', 'Orange']
     print(colours)
     
-    colours[0] = 'Brown'
+    del colours[0]
     print(colours)
     
-Modifyelementsinalist()
+Removingelementsinalistwithdel()
+
+def Removingelementsinalistwithpopmethod ():
+    print("\nRemoving Item Using the pop () method")
+    colours = ['Red', 'Purple', 'Green', 'Orange']
+    print(colours)
+    
+    popped_colours = colours.pop()
+    print(colours)
+    print(popped_colours)
+    
+Removingelementsinalistwithpopmethod()
+
+def Removingelementsinanypositiononlistwithpopmethod ():
+    print("\nRemoving Item Using the pop () method in any position in a list")
+    colours = ['Red', 'Purple', 'Green', 'Orange']
+    print(colours)
+    
+    favourite_colour = colours.pop(2)
+    print("My favourite colour of all time is" +" " +  favourite_colour + ".")
+
+    
+Removingelementsinanypositiononlistwithpopmethod()
+
+def Removinganitembyvalue ():
+    print("\nRemovinganitembyvalue")
+    colours = ['Red', 'Purple', 'Green', 'Orange']
+    print(colours)
+    
+    colours.remove('Green')
+    print(colours)
+    
+    
+Removinganitembyvalue()
+
+print("Organizing a List")

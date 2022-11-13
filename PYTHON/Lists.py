@@ -13,3 +13,10 @@ def Elementsinalist():
     print (fruits[1].title())
     
 Elementsinalist()
+
+def Indexingpositions():
+    print("\nAccesing the last item on the list")
+    fruits = ['Mangoes', 'Oranges', 'Bananas', 'Apples']
+    print(fruits[-1])
+    
+Indexingpositions()

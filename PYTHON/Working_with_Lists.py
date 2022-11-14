@@ -48,4 +48,22 @@ def Usingrangetomakealist():
     
 Usingrangetomakealist()
 
-def Sim
+def Statistics():
+    print("\nMax")
+    numbers = [2, 9, 16, 0, 23, 6, 3]
+    value = max(numbers)
+    print(value)
+    
+    print("\nMin")
+    numbers = [2, 9, 16, 0, 23, 6, 3]
+    value = min(numbers)
+    print(value)
+    
+    
+    print("\nSum")
+    numbers = [2, 9, 16, 0, 23, 6, 3]
+    value = sum(numbers)
+    print(value)
+
+    
+Statistics()

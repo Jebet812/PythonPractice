@@ -50,5 +50,29 @@ checkinginequality()
 
 def numericalcomparisons():
     print("\nNumerical Comparisons")
+    size = 8
+    size == 14
+    print(size)
+    
+    size = 16
+    if size != 16: 
+        print("Deliver it to Nairobi.")
+    else:
+        print("Return the dress to Zara.")
+        
+numericalcomparisons()
+
+print("\nChecking multiple conditions")
+
+def checkingmultipleconditions():
+    print("\nUsing and to check multiple conditions")
+    
+    
+        
+        
+    
+ 
+    
+    
     
     

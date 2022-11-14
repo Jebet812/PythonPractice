@@ -64,16 +64,97 @@ def checkingmultipleconditions():
     else:
         print(False)
         
+    print("\nUsing or to check multiple conditions")
+    size_1 =  16
+    size_2 = 10
+    if size_1 >= 16 or size_2 <= 9:
+        print (True)
+    else:
+        print(False)
+        
 checkingmultipleconditions()
+
+
+
     
     
 def checkingwhetheravalueisinalist()      :
     print("\nChecking Whether a Value is in a List")
-    
+    bought_shoes =  ['Heels', 'Loafers', 'Sneakers']
+    if 'Sneakers' in bought_shoes:
+        print (True)
+    else:
+        print(False)
         
+        
+    bought_shoes =  ['Heels', 'Loafers', 'Sneakers']
+    if 'Sandals' in bought_shoes:
+        print (True)
+    else:
+        print(False)
     
- 
+checkingwhetheravalueisinalist()  
+
+print("\nBoolean Expressions")   
+#A *Boolean value is either a *True* or *False* 
+
+print("\nif Statements")
+#Already covered a simple if statement, if-else statement.
+
+#Python uses if-elif-else syntax to run each conditional test in order until one passes
+
+def ifelifelse():
+    print("\nThe if-elif-else chain")
+    age = 25
+    if  age < 6:
+        print("You wear a size 0")
+    elif age < 16:
+        print("You wear a size 6-12")
+    else :
+        print("You might have to visit the store to be measured")
+
+ifelifelse()
+
+def multipleelifblocks():
+    print("\nUsing Multiple elif Blocks")
+    age = 25
+    if  age < 6:
+        print("You wear a size 0")
+    elif age < 16:
+        print("You wear a size 6-12")
+    elif age < 25:
+        print("You wear a size 12-18")
+    else :
+        print("You might have to visit the store to be measured")
     
-    
-    
-    
+multipleelifblocks()
+
+def omittingelseblock():
+    print("\nOmmiting the Else Block")
+    age = 70
+    if  age < 6:
+        print("You wear a size 0")
+    elif age < 16:
+        print("You wear a size 6-12")
+    elif age < 25:
+        print("You wear a size 12-18")
+    elif age >= 25:
+        print("You might have to visit the store to be measured")
+
+omittingelseblock()
+
+def testingmultipleconditions():
+    print("\nTesting Multiple Conditions")
+    bought_snacks = ['chocolate', 'icecream', 'pizza']
+    if 'chocolate' in bought_snacks:
+        print("Add chocolate.")
+    if 'icecream' in bought_snacks:
+        print("Add icecream.")
+    if 'pizza' in bought_snacks:
+        print("Add pizza.")
+        
+    print("\nProceed to cart")
+
+testingmultipleconditions()
+
+print("\nUsing if Statements with Lists")

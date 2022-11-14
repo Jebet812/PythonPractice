@@ -17,27 +17,22 @@ print("\nConditional Tests")
 
 def  conditionaltests():
     print("\nCheck for Equality")
-    fruit = 'Watermelon'
-    fruit == 'Watermelon'
-    print(fruit)
+    fruit = 'Orange'
+    if fruit == 'Watermelon':
+        print('Watermelon')
+    else:
+        print('Not Watermelon')
     
-    fruit = 'Watermelon'
-    fruit == 'Orange'
-    print(fruit)
-    
+       
 conditionaltests()
 
 
 def  ignoringcase():
-    print("\nIgnoring Caase when Checking for equality")
-    fruit = 'Watermelon'
-    fruit == 'watermelon'
-    print(fruit)
-    
+    print("\nIgnoring case when Checking for equality")
     fruit = 'Watermelon'
     fruit.lower() == 'watermelon'
-    print(fruit)
-    
+    print('Watermelon')
+        
 ignoringcase()
 
 def checkinginequality():
@@ -50,10 +45,6 @@ checkinginequality()
 
 def numericalcomparisons():
     print("\nNumerical Comparisons")
-    size = 8
-    size == 14
-    print(size)
-    
     size = 16
     if size != 16: 
         print("Deliver it to Nairobi.")
@@ -66,9 +57,19 @@ print("\nChecking multiple conditions")
 
 def checkingmultipleconditions():
     print("\nUsing and to check multiple conditions")
-    
-    
+    size_1 =  16
+    size_2 = 10
+    if size_1 >= 16 and size_2 <= 9:
+        print (True)
+    else:
+        print(False)
         
+checkingmultipleconditions()
+    
+    
+def checkingwhetheravalueisinalist()      :
+    print("\nChecking Whether a Value is in a List")
+    
         
     
  

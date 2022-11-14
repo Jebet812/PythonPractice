@@ -19,10 +19,36 @@ def  conditionaltests():
     print("\nCheck for Equality")
     fruit = 'Watermelon'
     fruit == 'Watermelon'
-    bool(fruit)
+    print(fruit)
     
     fruit = 'Watermelon'
     fruit == 'Orange'
-    bool(fruit)
+    print(fruit)
     
 conditionaltests()
+
+
+def  ignoringcase():
+    print("\nIgnoring Caase when Checking for equality")
+    fruit = 'Watermelon'
+    fruit == 'watermelon'
+    print(fruit)
+    
+    fruit = 'Watermelon'
+    fruit.lower() == 'watermelon'
+    print(fruit)
+    
+ignoringcase()
+
+def checkinginequality():
+    print("\nChecking for Inequality")
+    dress = 'red'
+    if dress != 'pink':
+        print("Return dress to Zara")
+        
+checkinginequality()
+
+def numericalcomparisons():
+    print("\nNumerical Comparisons")
+    
+    

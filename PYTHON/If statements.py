@@ -158,3 +158,39 @@ def testingmultipleconditions():
 testingmultipleconditions()
 
 print("\nUsing if Statements with Lists")
+
+def checkingforspecialitems():
+    print("\nChecking for Special Items")
+    dress_colours = ['red', 'purple', 'brown']
+    for dress_colour in dress_colours:
+        if dress_colour == 'brown':
+            print("The brown dress is unavailable. Can you choose another colour?")
+        else:
+            print("Adding" + " " +dress_colour + " "+ "dress to cart.")
+        
+checkingforspecialitems()
+
+
+def checkingthatalistisnotempty():
+    print("\nChecking thata list is not empty")
+    dress_colours = ['red', 'purple', 'brown']
+    if dress_colours:
+        for dress_colour in dress_colours:
+            print("Adding" + " " +dress_colour + " "+ "dress to cart.")
+    else:
+        print("There are no dresses in that colour.")
+        
+checkingthatalistisnotempty()
+
+
+def usingmultiplelists():
+    print("\nUsing Multiple Lists")
+    dress_colours_available = ['red', 'purple', 'brown', 'green', 'orange', 'blue']
+    dress_colours =  [ 'green', 'orange', 'blue', 'maroon']
+    for dress_colour in dress_colours:
+        if dress_colour in dress_colours_available:
+            print("Adding" + " " +dress_colour + " "+ "dress to cart.")
+        else:
+            print("There are no dresses in that colour.")
+        
+usingmultiplelists() 

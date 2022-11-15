@@ -12,9 +12,23 @@ a message that the player just earned 5 points.</br>
 
 ***Solution One***
 
-![](2022-11-15-14-56-48.png)
-
+![](2022-11-15-20-38-29.png)
 
 ***Solution Two***
 
+![](2022-11-15-20-39-17.png)
 
+### Exercise 2
+
+**Alien Colors #2:** Choose a color for an alien as you did in Exercise 5-3, and 
+write an if-else chain.</br>
+•	 If the alien’s color is green, print a statement that the player just earned 
+5 points for shooting the alien.</br>
+•	 If the alien’s color isn’t green, print a statement that the player just earned 10 points.</br>
+•	 Write one version of this program that runs the if block and another that 
+runs the else block
+
+***Solution One***
+
+
+***Solution Two***

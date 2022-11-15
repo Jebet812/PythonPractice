@@ -12,4 +12,5 @@ a message that the player just earned 5 points.</br>
 
 ***Solution One***
 Here is the code
+
 ![](2022-11-15-14-56-48.png)

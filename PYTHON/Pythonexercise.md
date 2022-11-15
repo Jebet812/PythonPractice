@@ -11,6 +11,10 @@ a message that the player just earned 5 points.</br>
 •	 Write one version of this program that passes the if test and another that fails. (The version that fails will have no output.)
 
 ***Solution One***
-Here is the code
 
 ![](2022-11-15-14-56-48.png)
+
+
+***Solution Two***
+
+

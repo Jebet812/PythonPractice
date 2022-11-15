@@ -30,5 +30,9 @@ runs the else block
 
 ***Solution One***
 
+![](2022-11-15-20-43-50.png)
+
 
 ***Solution Two***
+
+![](2022-11-15-20-44-27.png)

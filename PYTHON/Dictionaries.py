@@ -130,3 +130,36 @@ loopingthroughvalues()
     
     
 print("Nesting")
+#Nesting is when you want to store a set of dictionaries in a list or a list of items as a value
+#in a dictionary.
+
+def alistofdictionaries():
+    print("\nA list of dictionaries")
+    girls = []
+    
+    for girl_number in range (30):
+        new_girl = {'hair' : 'ginger', 'height' : 'tall', 'eyes' : 'brown'}
+        girls.append(new_girl)
+    
+    for girl in girls[0:3]:
+        if girl['hair'] == 'ginger':
+            girl['hair'] = 'brown'
+            girl['height'] = 'short'
+            girl['eyes'] = 'blue'
+            
+    for girl in girls[0:5]:
+        print(girl)
+                
+    print("...")
+    
+    print("Total number of girls:" + str(len(girls)))
+    
+    
+alistofdictionaries()
+
+def alistindictionary():
+    print("\nA List in dictionary")
+    
+    
+        
+   

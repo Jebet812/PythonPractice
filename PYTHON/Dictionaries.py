@@ -81,5 +81,34 @@ def loopingthroughkeyvalue():
 loopingthroughkeyvalue()
 
 def loopingthroughkeys():
-    print("\nLooping through allthe Keys in a dictionary")
+    print("\nLooping through all the Keys in a dictionary")
+    favourite_car = {
+        'Jay' : 'benz',
+        'Jane': 'bmw',
+        'Jason' : 'audi',
+        'Jasmine' : 'Honda'
+    }
+    friends = ['Jasmine', 'Jay']
+    for name in favourite_car.keys():
+        print(name.title())
+        
+        if name in friends:
+            print("Hi" + " " + name.title() +
+                  ", you really would love to own a" + " " +
+                  favourite_car[name].title())
+            
+loopingthroughkeys()
     
+def loopingthroughkeysinorder() :
+    print("\nLooping through Keys in Order")
+    favourite_car = {
+        'Jay' : 'benz',
+        'Jane': 'bmw',
+        'Jason' : 'audi',
+        'Jasmine' : 'Honda'
+    }
+    for name in sorted(favourite_car.keys()):
+        print(name.title() + " " +"good luck saving to purchase the car!")
+        
+loopingthroughkeysinorder()
+        

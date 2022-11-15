@@ -36,3 +36,33 @@ runs the else block
 ***Solution Two***
 
 ![](2022-11-15-20-44-27.png)
+
+### Exercise 3
+
+**Alien Colors #3:** Turn your if-else chain from Exercise 5-4 into an if-elif-else chain.</br>
+•	 If the alien is green, print a message that the player earned 5 points.</br>
+•	 If the alien is yellow, print a message that the player earned 10 points.</br>
+•	 If the alien is red, print a message that the player earned 15 points.</br>
+•	 Write three versions of this program, making sure each message is printed 
+for the appropriate color alien.
+
+***Solution***
+
+![](2022-11-15-20-53-51.png)
+
+### Exercise 4
+
+**Stages of Life:** Write an if-elif-else chain that determines a person’s 
+stage of life. Set a value for the variable age, and then:
+•	 If the person is less than 2 years old, print a message that the person is 
+a baby.
+•	 If the person is at least 2 years old but less than 4, print a message that 
+the person is a toddler.
+•	 If the person is at least 4 years old but less than 13, print a message that 
+the person is a kid.
+•	 If the person is at least 13 years old but less than 20, print a message that 
+the person is a teenager.
+•	 If the person is at least 20 years old but less than 65, print a message that 
+the person is an adult.
+•	 If the person is age 65 or older, print a message that the person is an 
+elder

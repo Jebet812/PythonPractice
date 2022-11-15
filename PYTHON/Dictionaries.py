@@ -159,6 +159,54 @@ alistofdictionaries()
 
 def alistindictionary():
     print("\nA List in dictionary")
+    favourite_car = {
+        'Jay' : ['benz', 'honda'],
+        'Jane': ['bmw'],
+        'Jason' : ['audi', 'toyota'],
+        'Jasmine' : ['Honda', 'suzuki'],    
+    }
+    
+    for name, cars in favourite_car.items():
+        print("\n" + name.title() + " " + "loves these cars:")
+        for car in cars:
+            print("\t" + car.title())
+            
+alistindictionary()
+
+def adictionaryindictionary():
+    print("\nA Dictionary in a Dictionary")
+    boys = {
+        'James': {
+            'first' : 'Arnold',
+            'last' : 'James',
+            'Age' : 'six',
+            
+        },
+         'Ingrid':{
+            'first' : 'John',
+            'last' : 'Ingrid',
+            'Age' : 'fifteen',
+            
+        },
+          'Trevor':{
+            'first' : 'Bill',
+            'last' : 'Trevor',
+            'Age' : 'twenty',
+            
+        },
+        
+    }
+    
+    for name, information in boys.items():
+        print("\nBoy:" + name)
+        full_name = information['first'] + " " + information['last']
+        age = information['Age']
+        
+        print("\tFull name: "  + full_name.title())
+        print("\tAge:" + age.title())
+        
+adictionaryindictionary()
+    
     
     
         

@@ -53,16 +53,34 @@ for the appropriate color alien.
 ### Exercise 4
 
 **Stages of Life:** Write an if-elif-else chain that determines a person’s 
-stage of life. Set a value for the variable age, and then:
+stage of life. Set a value for the variable age, and then: </br>
 •	 If the person is less than 2 years old, print a message that the person is 
-a baby.
+a baby.</br>
 •	 If the person is at least 2 years old but less than 4, print a message that 
-the person is a toddler.
+the person is a toddler.</br>
 •	 If the person is at least 4 years old but less than 13, print a message that 
-the person is a kid.
+the person is a kid.</br>
 •	 If the person is at least 13 years old but less than 20, print a message that 
-the person is a teenager.
+the person is a teenager.</br>
 •	 If the person is at least 20 years old but less than 65, print a message that 
-the person is an adult.
+the person is an adult.</br>
 •	 If the person is age 65 or older, print a message that the person is an 
-elder
+elder.</br>
+
+***Solution***
+
+![](2022-11-15-21-01-07.png)
+
+
+### Exercise 5
+
+Favorite Fruit: Make a list of your favorite fruits, and then write a series of 
+independent if statements that check for certain fruits in your list.</br>
+•	 Make a list of your three favorite fruits and call it favorite_fruits.</br>
+•	 Write five if statements. Each should check whether a certain kind of fruit 
+is in your list. If the fruit is in your list, the if block should print a statement, 
+such as You really like bananas!
+
+***Solution***
+
+![](2022-11-15-21-02-56.png)

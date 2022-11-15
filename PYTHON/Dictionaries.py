@@ -112,3 +112,21 @@ def loopingthroughkeysinorder() :
         
 loopingthroughkeysinorder()
         
+def loopingthroughvalues():
+    favourite_car = {
+        'Jay' : 'benz',
+        'Jane': 'bmw',
+        'Jason' : 'audi',
+        'Jasmine' : 'Honda',
+        'Jared' : 'audi'
+    }
+    print("The students mentioned the following cars as favourites:")
+    for car in set(favourite_car.values()):
+        print(car.title())
+               
+#To avoid repetition use set to mention value only once        
+        
+loopingthroughvalues()
+    
+    
+print("Nesting")

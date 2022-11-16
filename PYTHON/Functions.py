@@ -28,3 +28,19 @@ def describe_friend(name, colour):
     
 describe_friend(colour = 'beige', name = 'Adhiambo')
 
+def describe_friend(colour, name = 'Adhiambo'):
+    print("\nDefault Value")
+    print ("My best friend's name is " + name.title())
+    print (name.title() + "'s favorite colour is "  + colour)
+    
+describe_friend(colour = 'beige')
+
+print("\nReturn Values")
+
+def real_name(first_name, last_name):
+    print("\nReturning a Simple Value")
+    full_name = first_name +' ' + last_name
+    return full_name.title()
+
+doctor = real_name('Jason', 'Kim')
+print(doctor)

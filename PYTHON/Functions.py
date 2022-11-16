@@ -59,3 +59,15 @@ print(doctor_one)
 doctor_two = real_name('Joslyn', 'Alex', 'Daizy')
 print(doctor_two)
 
+print("Returning a dictionary")
+def real_name(first_name, last_name, age = ' '):
+     print("\nReturning a Dictionary")
+     name = {'first' : first_name, 'last' : last_name}
+     if age:
+         name['age'] = age
+     return name
+     
+client = real_name('Justin', 'Tray', age = 27 )
+print(client)
+
+

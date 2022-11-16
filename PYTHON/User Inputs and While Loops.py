@@ -78,4 +78,48 @@ using_break()
 
 
 def continue_in_loop():
+    print("\nUsing Continue in Loop")
+    number = 0
+    while number < 15:
+        number += 1
+        if number % 3 == 0:
+            continue
+            print(number)
+            
+continue_in_loop()
+
+print("\nUsing a while Loop with Lists and Dictionaries")
+
+
+def move_items_from_list_to_list():
+    print("\nMoving Items from one List to Another")
+    colours = ['Green', 'Baige', 'Orange']
+    available_colours= []
     
+    while colours:
+        requested_colours = colours.pop()
+        print ("Checking availability of " + requested_colours)
+        available_colours.append(requested_colours)
+        
+    print("The following colours are available:")
+    for available_colour in available_colours:
+        print(available_colour.title())
+        
+move_items_from_list_to_list()
+
+def remove_instances_from_list():
+    print("\nRemoving All Instances of Specific Values from a List")
+    colours = ['orange', 'baige', 'orange', 'green', 'baige']
+    print(colours)
+    
+    while 'orange' in colours:
+        colours.remove('orange')
+        
+    print(colours)
+    
+remove_instances_from_list()
+
+def 
+
+
+        

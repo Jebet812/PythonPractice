@@ -74,7 +74,7 @@ elder.</br>
 
 ### Exercise 5
 
-Favorite Fruit: Make a list of your favorite fruits, and then write a series of 
+**Favorite Fruit:** Make a list of your favorite fruits, and then write a series of 
 independent if statements that check for certain fruits in your list.</br>
 •	 Make a list of your three favorite fruits and call it favorite_fruits.</br>
 •	 Write five if statements. Each should check whether a certain kind of fruit 
@@ -84,4 +84,32 @@ such as You really like bananas!
 ***Solution***
 
 ![](2022-11-15-21-02-56.png)
+
+### Exercise 6
+
+**Hello Admin:** Make a list of five or more usernames, including the name 
+'admin'. Imagine you are writing code that will print a greeting to each user 
+after they log in to a website. Loop through the list, and print a greeting to 
+each user:</br>
+•	 If the username is 'admin', print a special greeting, such as Hello admin, 
+would you like to see a status report?</br>
+•	 Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
+
+***Solution***
+
+![](2022-11-16-21-25-57.png)
+
+### Exercise 7
+
+**No Users:** Add an if test to hello_admin.py to make sure the list of users is 
+not empty.</br>
+•	 If the list is empty, print the message We need to find some users!</br>
+•	 Remove all of the usernames from your list, and make sure the correct 
+message is printed.
+
+***Solution***
+
+![](2022-11-16-21-28-01.png)
+
+
 

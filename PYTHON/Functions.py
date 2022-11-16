@@ -44,3 +44,18 @@ def real_name(first_name, last_name):
 
 doctor = real_name('Jason', 'Kim')
 print(doctor)
+
+
+def real_name(first_name, last_name, middle_name= ' '):
+    print("\nMaking an Argument Optional")
+    if middle_name:
+        full_name = first_name +' ' + middle_name + ' ' + last_name
+    else:
+        full_name = first_name + ' ' + last_name   
+    return full_name.title()
+
+doctor_one = real_name('Jason', 'Kim')
+print(doctor_one)
+doctor_two = real_name('Joslyn', 'Alex', 'Daizy')
+print(doctor_two)
+

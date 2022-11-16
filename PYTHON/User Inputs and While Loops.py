@@ -126,6 +126,21 @@ def filling_dictionary_with_user_input():
     polling_active = True
     
     while polling_active:
+        name = input("\nWhat is your name?")
+        response = input("What fruit do you want? ")
+        
+        responses[name] = response
+        
+        repeat = input("\n Do you want another fruit? (yes/no)")
+        if repeat == 'no':
+            polling_active = False
+            
+    print("\n----Poll Results----")
+    for name, response in responses.items():
+        print(name +" would like a " + response + ".")
+            
+            
+filling_dictionary_with_user_input()
         
 
 

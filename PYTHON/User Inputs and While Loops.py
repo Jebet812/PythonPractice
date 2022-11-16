@@ -119,7 +119,14 @@ def remove_instances_from_list():
     
 remove_instances_from_list()
 
-def 
+def filling_dictionary_with_user_input():
+    print("\nFilling a Dictionary with User Input")
+    responses = {}
+    
+    polling_active = True
+    
+    while polling_active:
+        
 
 
         

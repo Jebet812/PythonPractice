@@ -70,4 +70,36 @@ def real_name(first_name, last_name, age = ' '):
 client = real_name('Justin', 'Tray', age = 27 )
 print(client)
 
+print("\nPrint Function with a while Loop")
+def name(first_name, last_name):
+   full_name = first_name +' ' + last_name
+   return full_name.title()
+
+while True:
+        print("\nKindly let me know your first name?")
+        print("(enter q' to quit)")
+        
+        f_name = input("First name: ")
+        if f_name == 'q':
+            break
+         
+        l_name = input("Last name: ")
+        if l_name == 'q':
+            break   
+        
+
+        real_name = name(f_name, l_name)
+        print("\nHello, " + real_name + " !")
+
+
+print ("\nPassing a List")
+def available_colours(colours):
+    for colour in colours:
+        write = "Hello, " + colour +" really looks good on you!"
+        print(write)
+        
+available_colours (['Blue', 'Orange', 'Green'])
+
+
+pri
 

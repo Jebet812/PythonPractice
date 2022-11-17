@@ -101,5 +101,54 @@ def available_colours(colours):
 available_colours (['Blue', 'Orange', 'Green'])
 
 
-pri
+print("\nModifying a List in a Function")
 
+def sold_colours(available_colours, ordered_colours):
+    while available_colours:
+        requested = available_colours.pop()
+        
+        print("Sold colours: " + requested)
+        ordered_colours.append(requested)
+        
+def these_are_sold_colours(ordered_colours):
+    print("\nThese are the colours that sold")
+    for ordered_colour in ordered_colours:
+        print(ordered_colour)
+        
+available_colours = ['Blue', 'Red', 'White']
+ordered_colours = []
+
+print ("\nPassing an Arbitrary Number oof Arguments")
+
+def make_burger(*ingredients):
+    print("\nMake a burger with the following ingredients")
+    for ingredient in ingredients:
+        print("\t" + ingredient)
+        
+make_burger('beef patty')
+make_burger('lettuce', 'tomatoes')
+
+print("\nMixing Positional and Arbitrary Arguments")
+
+def make_burger(size, *ingredients):
+    print("\nMake a " + str(size) + "-inch burger with the following ingredients")
+    for ingredient in ingredients:
+        print("\t" + ingredient)
+        
+make_burger(12, 'beef patty')
+make_burger(20, 'lettuce', 'tomatoes') 
+
+print("\nUsing Arbitrary Keyword Arguments")
+
+def student_6(first, last, **student_info):
+    info = {}
+    info['first_name'] = first
+    info['last name'] = last
+    
+    for key , value in student_info.items():
+        info[key] = value
+    return info
+student_information = student_6('Jane', 'Doe', home = 'texas', age = str(6))
+print(student_information)
+
+print("\nStoring Your Functions in Modules")

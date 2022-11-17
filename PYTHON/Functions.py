@@ -151,4 +151,4 @@ def student_6(first, last, **student_info):
 student_information = student_6('Jane', 'Doe', home = 'texas', age = str(6))
 print(student_information)
 
-print("\nStoring Your Functions in Modules")
+

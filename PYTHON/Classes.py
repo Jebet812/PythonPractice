@@ -160,11 +160,18 @@ class House():
     def update_floors(self, story):
         self.floor = story
         
+    def add_stairs (self, another_stair):
+        self.stair += another_stair
+        print("The stair I am adding is")   
+        
           
 my_house = House('Panel door', 'Casement window', 'Spiral staircase')
 print ("My new house will be made of a " + my_house.get_a_house())
 
 my_house.update_floors(4)
 my_house.floors()
+
+my_house.add_stairs(2)
+my_house.stairs()
 
 

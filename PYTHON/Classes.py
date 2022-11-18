@@ -55,7 +55,7 @@ print("\nSetting a Default Value for an Attribute")
 class House():
     # Building a House
     
-    def __init__(self, door, window, stair, floor):
+    def __init__(self, door, window, stair):
         # Initialize attributes of building a house
         self.door = door
         self.window = window
@@ -68,11 +68,38 @@ class House():
         return requirements
     
     def floors(self):
-        print("I only want" + str(self.floor) + " floors in the house.")
+        print("I only want " + str(self.floor) + " floors in the house.")
         
     
 my_house = House('Panel door', 'Casement window', 'Spiral staircase')
 print ("My new house will be made of a " + my_house.get_a_house())
-my_house.floors()       
+
+my_house.floors()    
+
+print("\nModifying Attribute Values")
+ 
+print("\nModifying an attributes vakue directly")   
+ 
+class House():
+    # Building a House
     
-   
+    def __init__(self, door, window, stair):
+        # Initialize attributes of building a house
+        self.door = door
+        self.window = window
+        self.stair = stair
+        self.floor = 2
+        
+    def get_a_house(self):
+        # Return a descriptive house in the method
+        requirements = self.door + ', a '+ self.window + ' and a ' + self.stair
+        return requirements
+    
+    def floors(self):
+        print("I only want " + str(self.floor) + " floors in the house.")
+        
+    
+my_house = House('Panel door', 'Casement window', 'Spiral staircase')
+print ("My new house will be made of a " + my_house.get_a_house())
+
+my_house.floors()   

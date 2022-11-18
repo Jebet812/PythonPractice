@@ -32,19 +32,47 @@ print(my_baby.name.title() + " is " + str(my_baby.age) + " years old")
     
 print("\nCalling Methods")
 
-class Baby():
+class House():
+    # Building a House
     
-     def __init__(self, name, age):
-        """Initialize name and age attributes"""
-        self.name = name
-        self.age = age
+    def __init__(self, door, window, stair):
+        # Initialize attributes of building a house
+        self.door = door
+        self.window = window
+        self.stair = stair
         
-     def sit(self):
+    def get_a_house(self):
+        # Return a descriptive house
+        requirements = self.door + ', a '+ self.window + ' and a ' + self.stair
+        return requirements
     
-          
- my_baby = Baby('Sandra', 2)
+my_house = House('Panel door', 'Casement window', 'Spiral staircase')
+print ("My new house will be made of a " + my_house.get_a_house())
+        
+        
+print("\nSetting a Default Value for an Attribute")  
 
-print("My baby's name is " + my_baby.name.title() + 
-      ". She loves " + my_baby.sit)
-print(my_baby.name.title() + " is " + str(my_baby.age) + " years old."
-      "She rarely " + my_baby.cry)
+class House():
+    # Building a House
+    
+    def __init__(self, door, window, stair, floor):
+        # Initialize attributes of building a house
+        self.door = door
+        self.window = window
+        self.stair = stair
+        self.floor = 2
+        
+    def get_a_house(self):
+        # Return a descriptive house in the method
+        requirements = self.door + ', a '+ self.window + ' and a ' + self.stair
+        return requirements
+    
+    def floors(self):
+        print("I only want" + str(self.floor) + " floors in the house.")
+        
+    
+my_house = House('Panel door', 'Casement window', 'Spiral staircase')
+print ("My new house will be made of a " + my_house.get_a_house())
+my_house.floors()       
+    
+   

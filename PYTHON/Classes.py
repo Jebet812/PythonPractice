@@ -30,5 +30,3 @@ my_baby = Baby('Sandra', 2)
 print("My baby's name is " + my_baby.name.title())
 print(my_baby.name.title() + " is " + str(my_baby.age) + " years old")
     
-
-     

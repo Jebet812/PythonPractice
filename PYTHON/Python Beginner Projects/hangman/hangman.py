@@ -11,5 +11,6 @@ def get_valid_word(words):
     return(word)
 
 def hangman():
-    
+    word = get_valid_word(words)
+    word_letters = set(word) 
         

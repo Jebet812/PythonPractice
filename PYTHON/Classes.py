@@ -136,8 +136,33 @@ print ("My new house will be made of a " + my_house.get_a_house())
 my_house.update_floors(4)
 my_house.floors()
 
-print("Inheritance")
+print("\nInheritance")
 
 
-
+class House():
+    # Building a House
+    
+    def __init__(self, door, window, stair):
+        # Initialize attributes of building a house
+        self.door = door
+        self.window = window
+        self.stair = stair
+        self.floor = 2
+        
+    def get_a_house(self):
+        # Return a descriptive house in the method
+        requirements = self.door + ', a '+ self.window + ' and a ' + self.stair
+        return requirements
+    
+    def floors(self):
+        print("I only want " + str(self.floor) + " floors in the house.")
+        
+    
+    def update_floors(self, story):
+        self.floor = story
+        
+class Maisonette(House):
+    # Represent aspects of a maisonette house
+    
+    
 

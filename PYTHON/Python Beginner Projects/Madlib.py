@@ -1,5 +1,5 @@
-# The project helps one familiarize themselves with working with f strings
-# and general string concatenation in Python.
+# The project helps one familiarize themselves with working with f strings, 
+# the input() function and general string concatenation in Python.
 
 name= input('Name: ')
 colour = input("Colour: ")

@@ -136,7 +136,7 @@ print ("My new house will be made of a " + my_house.get_a_house())
 my_house.update_floors(4)
 my_house.floors()
 
-print("\nIncrementing an Attriute's Value Through a Method")
+print("\nIncrementing an Attribute's Value Through a Method")
 
 class House():
     # Building a House
@@ -172,6 +172,6 @@ my_house.update_floors(4)
 my_house.floors()
 
 my_house.add_stairs(2)
-my_house.stairs()
+my_house.stair()
 
 

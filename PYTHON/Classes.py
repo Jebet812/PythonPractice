@@ -163,6 +163,15 @@ class House():
         
 class Maisonette(House):
     # Represent aspects of a maisonette house
-    
+    def __init__(self, door, window, stair):
+        super().__init__(door, window, stair)
+        self.roof = 'tiled'
+        
+    def the_roof(self):
+        # Defining new attributes and methods of a child class
+        print("I would love the roof to be " + self.roof)
     
 
+my_house = Maisonette('flush door', 'sliding window', 'normal staircase')
+print ("My new maisonette house will be made of a " + my_house.get_a_house())
+my_house.the_roof()

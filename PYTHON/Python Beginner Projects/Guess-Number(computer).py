@@ -1,4 +1,5 @@
-
+#In the project you learn Python's random module
+# working with while loops, conditional and getting input from user.
 
 import random
 

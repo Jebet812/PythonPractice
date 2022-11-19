@@ -1,6 +1,6 @@
 import random
 from words import words
-
+import string
 
 def get_valid_word(words):
     word = random.choice(words)  #this will choose a random list from the list
@@ -13,4 +13,7 @@ def get_valid_word(words):
 def hangman():
     word = get_valid_word(words)
     word_letters = set(word) 
+    alphabet = set(string.ascii_uppercase)
+    used_letters = set()
+    
         

@@ -1,5 +1,5 @@
-#In the project you learn Python's random module
-# working with while loops, conditional and getting input from user.
+#In the project you learn Python's random module,
+# working with while loops and conditionals and getting input from user.
 
 import random
 
@@ -18,6 +18,6 @@ def guess(x):
             print("The guess is too high. Kindly guess again.")
             
     
-    print(f"Congratulations. You win a prize for guessing the correct number {random_number}.")
+    print(f"Congratulations. You win a prize for guessing the correct number, number {random_number}.")
     
 guess(10)

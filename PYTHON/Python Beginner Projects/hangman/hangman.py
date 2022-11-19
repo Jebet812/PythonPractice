@@ -17,7 +17,7 @@ def hangman():
     used_letters = set() #what user has guessed
     
     #get user input
-    user_letter =  input("Guess a letter: ").ipper{}
+    user_letter =  input("Guess a letter: ").upper()
     if user_letter in alphabet - used_letters:
         used_letters.add(user_letter)
         if user_letter in word_letters:

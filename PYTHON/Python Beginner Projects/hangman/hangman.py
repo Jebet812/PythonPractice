@@ -12,15 +12,17 @@ def get_valid_word(words):
 
 def hangman():
     word = get_valid_word(words)
-    word_letters = set(word) 
+    word_letters = set(word)  #letters in the word
     alphabet = set(string.ascii_uppercase)
     used_letters = set() #what user has guessed
     
+    lives = 8
+    
     #get user input
-    while len(word_letters) > 0:
+    while len(word_letters) > 0 and lives > 0:
         # letters used
         # ' '.join({'a', cd,}) --> 'a, cd'
-        print("You have guessed these letters: ", ' '.join(used_letters))
+        print('You have', lives, 'lives left and you have guessed these letters: ', ' '.join(used_letters))
         
         # what current word is with dashes where unguessed letters are (W - R -D)
         word_list = [letter if letter in used_letters else  '-' for letter in word]
@@ -32,6 +34,10 @@ def hangman():
             used_letters.add(user_letter)
             if user_letter in word_letters:
                 word_letters.remove(user_letter)
+                
+            else:
+                lives = lives- 1 #takes away a life if wrong
+                print("Letter not in word")
             
         elif user_letter in used_letters:
             print("That character has been used. Please try again.")
@@ -39,9 +45,8 @@ def hangman():
         else:
             print("You have not typed in a valid character. Kindly try again.")
             
-        
-    #gets here when len(word_letters) == 0   
-user_input = input("Type something: ")
-print(user_input)
+    
+    #get here when len(word_list) == 0    
+hangman()
     
         
